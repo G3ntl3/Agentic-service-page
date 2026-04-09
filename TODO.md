@@ -1,0 +1,5 @@
+- [x] Edit Hero.jsx to add md: breakpoints for better responsiveness (text sizes, spacing, layout)
+- [x] Verify navbar stays fixed (no changes needed)
+- [x] Adjust base classes in Hero.jsx for better mobile responsiveness (text sizes, spacing, image width)
+- [x] Add wallet address display to navbar when authenticated
+- [x] Add wallet address display to mobile overlay above Disconnect button

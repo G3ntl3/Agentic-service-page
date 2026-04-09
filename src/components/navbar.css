@@ -1,0 +1,4 @@
+/* Button gradient - reuse for nav buttons */
+.logbtn {
+  background-image: linear-gradient(#0cddf4, #016179);
+}
