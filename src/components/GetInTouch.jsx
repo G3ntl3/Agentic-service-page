@@ -14,7 +14,7 @@ const GetInTouch = () => {
   const [isCalendlyOpen, setIsCalendlyOpen] = useState(false);
 
   // YOUR CALENDLY URL - Replace with your actual Calendly URL
-  const CALENDLY_URL = 'https://calendly.com/hammedlawal412/30min'; // ADD YOUR URL HERE
+  const CALENDLY_URL = 'https://calendly.com/0xivaan'; // ADD YOUR URL HERE
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
