@@ -55,14 +55,13 @@ const Navbar = () => {
             >
               Education Hub
             </NavLink> */}
-            <NavLink 
-              to="/whatwedo" 
-              className={({ isActive }) => 
-                `hover:text-cyan-400 transition-colors duration-200 font-medium ${isActive ? 'text-cyan-400' : ''}`
-              }
+            <Link
+              to="/#process"
+              className="hover:text-cyan-400 transition-colors duration-200 font-medium"
               onClick={closeMenu}
             >
-What we do            </NavLink>
+              How it works
+            </Link>
             <Link
               to="/#services"
               className="hover:text-cyan-400 transition-colors duration-200 font-medium"
