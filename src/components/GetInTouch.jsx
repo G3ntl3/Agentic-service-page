@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { PopupModal } from 'react-calendly';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Send } from 'lucide-react';
 
 const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -138,9 +138,9 @@ const GetInTouch = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-[#0CDDF4] to-[#016179] text-white font-semibold px-6 py-3 rounded-full hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 ease-in-out w-fit"
+                  className="bg-gradient-to-r from-[#0CDDF4] to-[#016179] text-white font-semibold px-6 py-3 rounded-full hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 ease-in-out w-fit flex items-center gap-2"
                 >
-                  Send A Message
+                  <Send size={20} />
                 </button>
               </form>
             </div>
